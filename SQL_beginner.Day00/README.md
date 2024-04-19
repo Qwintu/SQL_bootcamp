@@ -7,65 +7,29 @@ Resume: Today you will see how relational model works and how to get needed data
 ## Contents
 
 1. [Chapter I](#chapter-i) \
-    1.1. [Preamble](#preamble)
-2. [Chapter II](#chapter-ii) \
-    2.1. [General Rules](#general-rules)
-3. [Chapter III](#chapter-iii) \
-    3.1. [Rules of the day](#rules-of-the-day)  
-4. [Chapter IV](#chapter-iv) \
-    4.1. [Exercise 00 - First steps into SQL world](#exercise-00-first-steps-into-sql-world)  
-5. [Chapter V](#chapter-v) \
-    5.1. [Exercise 01 - First steps into SQL world](#exercise-01-first-steps-into-sql-world)  
-6. [Chapter VI](#chapter-vi) \
-    6.1. [Exercise 02 - First steps into SQL world](#exercise-02-first-steps-into-sql-world)  
-7. [Chapter VII](#chapter-vii) \
-    7.1. [Exercise 03 - First steps into SQL world](#exercise-03-first-steps-into-sql-world)  
-8. [Chapter VIII](#chapter-viii) \
-    8.1. [Exercise 04 - First steps into SQL world](#exercise-04-first-steps-into-sql-world)
-9. [Chapter IX](#chapter-ix) \
-    9.1. [Exercise 05 - First steps into SQL world](#exercise-05-first-steps-into-sql-world)
-10. [Chapter X](#chapter-x) \
-    10.1. [Exercise 06 - First steps into SQL world](#exercise-06-first-steps-into-sql-world)
-11. [Chapter XI](#chapter-xi) \
-    11.1. [Exercise 07 - First steps into SQL world](#exercise-07-first-steps-into-sql-world)
-12. [Chapter XII](#chapter-xii) \
-    12.1. [Exercise 08 - First steps into SQL world](#exercise-08-first-steps-into-sql-world)
-13. [Chapter XIII](#chapter-xiii) \
-    13.1. [Exercise 09 - First steps into SQL world](#exercise-09-first-steps-into-sql-world)
+    1.1. [Rules of the day](#rules-of-the-day)  
+2. [Chapter II](#chapter-iv) \
+    2.1. [Exercise 00 - First steps into SQL world](#exercise-00-first-steps-into-sql-world)  
+3. [Chapter II](#chapter-v) \
+    3.1. [Exercise 01 - First steps into SQL world](#exercise-01-first-steps-into-sql-world)  
+4. [Chapter IV](#chapter-vi) \
+    4.1. [Exercise 02 - First steps into SQL world](#exercise-02-first-steps-into-sql-world)  
+5. [Chapter V](#chapter-vii) \
+    5.1. [Exercise 03 - First steps into SQL world](#exercise-03-first-steps-into-sql-world)  
+6. [Chapter VI](#chapter-viii) \
+    6.1. [Exercise 04 - First steps into SQL world](#exercise-04-first-steps-into-sql-world)
+7. [Chapter VII](#chapter-ix) \
+    7.1. [Exercise 05 - First steps into SQL world](#exercise-05-first-steps-into-sql-world)
+8. [Chapter VIII](#chapter-x) \
+    8.1. [Exercise 06 - First steps into SQL world](#exercise-06-first-steps-into-sql-world)
+9. [Chapter IX](#chapter-xi) \
+    9.1. [Exercise 07 - First steps into SQL world](#exercise-07-first-steps-into-sql-world)
+10. [Chapter X](#chapter-xii) \
+    10.1. [Exercise 08 - First steps into SQL world](#exercise-08-first-steps-into-sql-world)
+11. [Chapter XI](#chapter-xiii) \
+    11.1. [Exercise 09 - First steps into SQL world](#exercise-09-first-steps-into-sql-world)
 
 ## Chapter I
-## Preamble
-
-![D01_01](misc/images/D01_01.png)
-
-Standards are everywhere, and Relational Databases are under control as well :-). To be honest between us, more restricted SQL standards were at the beginning of 2000 years. Actually when the “Big Data” pattern was born, Relational Databases had their own way to realize this pattern and therefore standards right now are more ... lightweight. 
-
-![D01_02](misc/images/D01_02.png)
-
-Please take a look at some SQL standards below and try to think about the future of Relational Databases.
-
-|  |  |
-| ------ | ------ |
-| ![D01_03](misc/images/D01_03.png) | ![D01_04](misc/images/D01_04.png) |
-| ![D01_05](misc/images/D01_05.png) | ![D01_06](misc/images/D01_06.png) |
-| ![D01_07](misc/images/D01_07.png) | ![D01_08](misc/images/D01_08.png) |
-
-## Chapter II
-## General Rules
-
-- Use this page as the only reference. Do not listen to any rumors and speculations on how to prepare your solution.
-- Please make sure you are using the latest version of PostgreSQL.
-- That is completely OK if you are using IDE to write a source code (aka SQL script).
-- To be assessed your solution must be in your GIT repository.
-- Your solutions will be evaluated by your piscine mates.
-- You should not leave in your directory any other file than those explicitly specified by the exercise instructions. It is recommended that you modify your `.gitignore` to avoid accidents.
-- Do you have a question? Ask your neighbor on the right. Otherwise, try with your neighbor on the left.
-- Your reference manual: mates / Internet / Google. 
-- Read the examples carefully. They may require things that are not otherwise specified in the subject.
-- And may the SQL-Force be with you!
-- Absolutely everything can be presented in SQL! Let’s start and have fun!
-
-## Chapter III
 ## Rules of the day
 
 - Please make sure you have an own database and access for it on your PostgreSQL cluster. 
@@ -104,7 +68,7 @@ Please take a look at some SQL standards below and try to think about the future
 
 Persons' visit and persons' order are different entities and don't contain any correlation between data. For example, a client can be in one restaurant (just looking at menu) and in this time make an order in different one by phone or by mobile application. Or another case,  just be at home and again make a call with order without any visits.
 
-## Chapter IV
+## Chapter II
 ## Exercise 00 - First steps into SQL world
 
 | Exercise 00: First steps into SQL world |                                                                                                                          |
@@ -118,7 +82,7 @@ Let’s make our first task.
 Please make a select statement which returns all person's names and person's ages from the city ‘Kazan’.
 
 
-## Chapter V
+## Chapter III
 ## Exercise 01 - First steps into SQL world
 
 | Exercise 01: First steps into SQL world |                                                                                                                          |
@@ -130,7 +94,7 @@ Please make a select statement which returns all person's names and person's age
 
 Please make a select statement which returns names , ages for all women from the city ‘Kazan’. Yep, and please sort result by name.
 
-## Chapter VI
+## Chapter IV
 ## Exercise 02 - First steps into SQL world
 
 | Exercise 02: First steps into SQL world |                                                                                                                          |
@@ -144,7 +108,7 @@ Please make 2 syntax different select statements which return a list of pizzeria
 - the 1st select statement must contain comparison signs  (<=, >=)
 - the 2nd select statement must contain `BETWEEN` keyword
 
-## Chapter VII
+## Chapter V
 ## Exercise 03 - First steps into SQL world
 
 | Exercise 03: First steps into SQL world |                                                                                                                          |
@@ -156,7 +120,7 @@ Please make 2 syntax different select statements which return a list of pizzeria
 
 Please make a select statement which returns the person's identifiers (without duplication) who visited pizzerias in a period from 6th of January 2022 to 9th of January 2022 (including all days) or visited pizzeria with identifier 2. Also include ordering clause by person identifier in descending mode.
 
-## Chapter VIII
+## Chapter VI
 ## Exercise 04 - First steps into SQL world
 
 
@@ -174,7 +138,7 @@ Please make a select statement which returns one calculated field with name ‘p
 Finally, please add the ordering clause by calculated column in ascending mode.
 Please pay attention to quote symbols in your formula!
 
-## Chapter IX
+## Chapter VII
 ## Exercise 05 - First steps into SQL world
 
 
@@ -196,7 +160,7 @@ Please take a look at the pattern of internal query.
     FROM ...
     WHERE ...
 
-## Chapter X
+## Chapter IIX
 ## Exercise 06 - First steps into SQL world
 
 
@@ -214,7 +178,7 @@ Please use SQL construction from Exercise 05 and add a new calculated column (us
     if (person_name == 'Denis') then return true
         else return false
 
-## Chapter XI
+## Chapter IX
 ## Exercise 07 - First steps into SQL world
 
 
@@ -234,7 +198,7 @@ Please make a SQL statement which returns a person's identifiers, person's names
 
 and yes...please sort a result by ‘interval_info’ column in ascending mode.
 
-## Chapter XII
+## Chapter X
 ## Exercise 08 - First steps into SQL world
 
 
@@ -247,7 +211,7 @@ and yes...please sort a result by ‘interval_info’ column in ascending mode.
 
 Please make a SQL statement which returns all columns from the `person_order` table with rows whose identifier is an even number. The result have to order by returned identifier.
 
-## Chapter XIII
+## Chapter IX
 ## Exercise 09 - First steps into SQL world
 
 
